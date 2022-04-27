@@ -33,7 +33,6 @@ mkdir -p %{buildroot}/%{_sysconfdir}/pakiti
 
 install -d src %{buildroot}/%{_localstatedir}/www/pakiti-server/src
 install -d install %{buildroot}/%{_localstatedir}/www/pakiti-server/install
-install src/common/DefaultConfig.php %{_sysconfdir}/pakiti/Config.php
 
 %clean
 rm -rf %{buildroot}
@@ -47,5 +46,5 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %{_localstatedir}/www/pakiti-server/src/{common,dao,managers,model,modules}/*
 %{_localstatedir}/www/pakiti-server/install/*.{php,sql}
-%{_sysconfdir}/pakiti/Config.php
+%{_sysconfdir}/pakiti
 
