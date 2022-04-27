@@ -29,7 +29,7 @@ rm -rf %{buildroot}
 mkdir -p %{buildroot}/%{_localstatedir}/www/pakiti-server
 mkdir -p %{buildroot}/%{_localstatedir}/spool/pakiti/reports
 mkdir -p %{buildroot}/%{_localstatedir}/lib/pakiti
-mkdir -p %{_sysconfdir}/pakiti
+mkdir -p %{buildroot}/%{_sysconfdir}/pakiti
 
 install -d src %{buildroot}/%{_localstatedir}/www/pakiti-server/src
 install -d install %{buildroot}/%{_localstatedir}/www/pakiti-server/install
