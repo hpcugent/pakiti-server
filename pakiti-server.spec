@@ -7,7 +7,7 @@ URL:		https://github.com/CESNET/pakiti-server
 License:	BSD 2-Clause "Simplified" License
 Group:		Applications/Internet
 Source0:	%{name}-%{version}.tar.gz
-BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
+BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 BuildRequires:	perl
 Requires:	php php-mysqlnd php-process php-xml mariadb-server
