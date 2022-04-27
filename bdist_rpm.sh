@@ -16,5 +16,5 @@ mkdir -p BUILD SOURCES SPECS RPMS BUILDROOT
 git archive --format=tar.gz -o "SOURCES/${PACKAGE}-${SUFFIX}.tar.gz" --prefix="${PACKAGE}-${SUFFIX}/" HEAD
 cp ${PACKAGE}.spec "SPECS"
 rpmbuild --define "gittag ${GITTAG}" --define "_topdir $PWD" -ba SPECS/${PACKAGE}.spec
-rm -rf BUILD SOURCES BUILDROOT SPECS
+#rm -rf BUILD SOURCES BUILDROOT SPECS
 
