@@ -2,7 +2,7 @@ Summary:	Patching status monitoring tool
 Name:		pakiti-server
 Version:	3.1.1
 %global rel	1
-Release:	%{rel}%{gittag}.ug
+Release:	%{rel}.%{gittag}.ug
 URL:		https://github.com/CESNET/pakiti-server
 License:	BSD 2-Clause "Simplified" License
 Group:		Applications/Internet
