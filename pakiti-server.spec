@@ -31,8 +31,8 @@ mkdir -p %{buildroot}/%{_localstatedir}/spool/pakiti/reports
 mkdir -p %{buildroot}/%{_localstatedir}/lib/pakiti
 mkdir -p %{buildroot}/%{_sysconfdir}/pakiti
 
-install -D src %{buildroot}/%{_localstatedir}/www/pakiti-server/src
-install -D install %{buildroot}/%{_localstatedir}/www/pakiti-server/install
+install src %{buildroot}/%{_localstatedir}/www/pakiti-server/src
+install install %{buildroot}/%{_localstatedir}/www/pakiti-server/install
 
 %clean
 rm -rf %{buildroot}
