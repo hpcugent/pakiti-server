@@ -142,6 +142,7 @@ class DefaultConfig
         "sarge" => "Debian.* 3\.1.*",
         "woody" => "Debian.* 3\.0.*",
         # Red Hat
+        "Red Hat Enterprise Linux 9" => "(Red\s*Hat.* 9.*)|(CentOS.* 9.*)|(Scientific.* 9.*)",
         "Red Hat Enterprise Linux 8" => "(Red\s*Hat.* 8.*)|(CentOS.* 8.*)|(Scientific.* 8.*)",
         "Red Hat Enterprise Linux 7" => "(Red\s*Hat.* 7.*)|(CentOS.* 7.*)|(Scientific.* 7.*)",
         "Red Hat Enterprise Linux 6" => "(Red\s*Hat.* 6.*)|(CentOS.* 6.*)|(Scientific.* 6.*)",
